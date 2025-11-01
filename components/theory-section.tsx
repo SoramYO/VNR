@@ -27,6 +27,18 @@ export function TheorySection() {
                     <p className="text-muted-foreground leading-relaxed">
                       Hội nghị Trung ương lần thứ <strong className="text-primary">11 (3-1965)</strong> và lần thứ <strong className="text-primary">12 (12-1965)</strong> phát động cuộc kháng chiến chống Mỹ, cứu nước toàn quốc, giương cao hai ngọn cờ độc lập dân tộc và chủ nghĩa xã hội.
                     </p>
+
+                    {/* Image container for Hội nghị 12 */}
+                    <figure className="my-4 bg-muted/50 p-4 rounded-lg border-2 border-dashed border-primary/30">
+                      <img
+                        src="/images/hoinghi12.png"
+                        alt="Hội nghị Trung ương lần thứ 12"
+                        className="w-full h-64 object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
+                      />
+                      <figcaption className="text-xs text-muted-foreground italic text-center mt-2">
+                        Hội nghị Trung ương lần thứ 12 (12-1965) - Nguồn: Pháp luật Nhà Đất
+                      </figcaption>
+                    </figure>
                     
                     {/* Hai miền - gộp lại */}
                     <div className="flex flex-col md:flex-row gap-4 my-4">
