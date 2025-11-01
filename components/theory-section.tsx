@@ -49,7 +49,7 @@ export function TheorySection() {
                     {/* Image */}
                     <div className="my-4 bg-muted/50 p-4 rounded-lg border-2 border-dashed border-primary/30 text-center">
                       <div className="flex flex-col items-center gap-2">
-                        <div className="w-full h-48 bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg flex items-center justify-center overflow-hidden">
+                        <div className="w-full h-full bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg flex items-center justify-center overflow-hidden">
                           <img src="/images/trung-uong-11.jpg" alt="Hội nghị Trung ương Đảng" className="w-full h-full object-cover" />
                         </div>
                         <p className="text-xs text-muted-foreground italic">Nguồn: Tài liệu lưu trữ lịch sử</p>
