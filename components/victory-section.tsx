@@ -3,18 +3,19 @@ import { Award, Globe, Heart, Lightbulb, Sparkles, Trophy, Shield, Zap, Target }
 
 export function VictorySection() {
   return (
-    <section id="victory" className="py-20 bg-gradient-to-br from-primary/10 via-background to-accent/10 relative overflow-hidden">
-      {/* Decorative background elements */}
-      <div className="absolute top-10 left-10 w-32 h-32 bg-primary/5 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-10 right-10 w-40 h-40 bg-accent/5 rounded-full blur-3xl"></div>
+    <section id="victory" className="py-20 bg-gradient-to-br from-accent/8 via-background to-secondary/10 relative overflow-hidden">
+      {/* Unified decorative background elements */}
+      <div className="absolute top-10 left-10 w-32 h-32 bg-primary/8 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-10 right-10 w-40 h-40 bg-accent/8 rounded-full blur-3xl"></div>
+      <div className="absolute top-1/2 right-1/4 w-24 h-24 bg-secondary/8 rounded-full blur-3xl"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-full mb-6 shadow-lg">
-              <Sparkles className="w-8 h-8 text-primary-foreground" />
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-accent to-accent/80 rounded-full mb-6 shadow-lg ring-4 ring-accent/20">
+              <Sparkles className="w-8 h-8 text-accent-foreground" />
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-balance bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-balance bg-gradient-to-r from-primary via-foreground to-accent bg-clip-text text-transparent">
               Vì Sao Thắng Lợi?
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
@@ -23,10 +24,10 @@ export function VictorySection() {
           </div>
 
           {/* Main Answer */}
-          <Card className="p-8 mb-12 bg-gradient-to-br from-primary/15 to-accent/5 border-2 border-primary/30 shadow-xl">
+          <Card className="p-8 mb-12 bg-gradient-to-br from-primary/8 to-accent/8 border-2 border-accent/30 shadow-xl hover:shadow-2xl transition-all duration-300">
             <div className="text-center mb-8">
               <p className="text-lg leading-relaxed text-muted-foreground mb-2">
-                Có thể khẳng định <strong className="text-primary text-xl">"Thắng lợi của cuộc kháng chiến chống Mỹ cứu nước là thắng lợi của đường lối lãnh đạo đúng đắn của Đảng"</strong>
+                Có thể khẳng định <strong className="text-primary text-xl bg-primary/10 px-2 py-1 rounded-lg">"Thắng lợi của cuộc kháng chiến chống Mỹ cứu nước là thắng lợi của đường lối lãnh đạo đúng đắn của Đảng"</strong>
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 vì trong giai đoạn 1965 – 1975, Đảng Cộng sản Việt Nam đã đề ra và thực hiện một đường lối chiến lược toàn diện, độc lập, tự chủ và sáng tạo, 
@@ -37,8 +38,8 @@ export function VictorySection() {
 
           {/* Four key points */}
           <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <Card className="p-8 hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-primary/20 group">
-              <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary/80 rounded-xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform">
+            <Card className="p-8 hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-primary/30 group bg-gradient-to-br from-primary/5 to-transparent">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary/80 rounded-xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform ring-2 ring-primary/20">
                 <Shield className="w-8 h-8 text-primary-foreground" />
               </div>
               <h3 className="text-2xl font-bold mb-4 group-hover:text-primary transition-colors">

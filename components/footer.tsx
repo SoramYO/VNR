@@ -2,10 +2,11 @@ import { BookOpen, ExternalLink, GraduationCap, FileText } from "lucide-react"
 
 export function Footer() {
   return (
-    <footer className="bg-gradient-to-b from-muted/50 via-background to-background border-t border-border py-12 relative overflow-hidden">
-      {/* Decorative background elements */}
-      <div className="absolute top-0 left-0 w-32 h-32 bg-primary/5 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 right-0 w-40 h-40 bg-accent/5 rounded-full blur-3xl"></div>
+    <footer className="bg-gradient-to-b from-secondary/20 via-background to-background border-t border-accent/20 py-12 relative overflow-hidden">
+      {/* Unified decorative background elements */}
+      <div className="absolute top-0 left-0 w-32 h-32 bg-primary/8 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-0 right-0 w-40 h-40 bg-accent/8 rounded-full blur-3xl"></div>
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-24 h-24 bg-secondary/8 rounded-full blur-3xl"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
@@ -13,10 +14,10 @@ export function Footer() {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <div className="relative">
-                  <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary/80 rounded-full flex items-center justify-center shadow-lg ring-2 ring-primary/20">
+                  <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary/80 rounded-full flex items-center justify-center shadow-lg ring-2 ring-accent/20">
                     <span className="text-primary-foreground font-bold text-xl">★</span>
                   </div>
-                  <div className="absolute -top-1 -right-1 w-3 h-3 bg-accent rounded-full animate-pulse"></div>
+                  <div className="absolute -top-1 -right-1 w-3 h-3 bg-accent rounded-full animate-pulse shadow-sm"></div>
                 </div>
                 <span className="font-bold text-lg bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                   Lịch sử Đảng Cộng sản Việt Nam
