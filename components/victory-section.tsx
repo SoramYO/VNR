@@ -16,18 +16,15 @@ export function VictorySection() {
               <Sparkles className="w-8 h-8 text-accent-foreground" />
             </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-4 text-balance bg-gradient-to-r from-primary via-foreground to-accent bg-clip-text text-transparent">
-              Vì Sao Thắng Lợi?
+              VÌ SAO THẮNG LỢI CỦA CUỘC KHÁNG CHIẾN CHỐNG MỸ LÀ THẮNG LỢI CỦA ĐƯỜNG LỐI LÃNH ĐẠO ĐÚNG ĐẮN CỦA ĐẢNG?
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
-              Thắng lợi của đường lối là thắng lợi của cuộc kháng chiến chống Mỹ
-            </p>
           </div>
 
           {/* Main Answer */}
           <Card className="p-8 mb-12 bg-gradient-to-br from-primary/8 to-accent/8 border-2 border-accent/30 shadow-xl hover:shadow-2xl transition-all duration-300">
             <div className="text-center mb-8">
               <p className="text-lg leading-relaxed text-muted-foreground mb-2">
-                Có thể khẳng định <strong className="text-primary text-xl bg-primary/10 px-2 py-1 rounded-lg">"Thắng lợi của cuộc kháng chiến chống Mỹ cứu nước là thắng lợi của đường lối lãnh đạo đúng đắn của Đảng"</strong>
+                Có thể khẳng định <br></br><strong className="text-primary text-xl bg-primary/10 px-2 py-1 rounded-lg">"Thắng lợi của cuộc kháng chiến chống Mỹ cứu nước là thắng lợi của đường lối lãnh đạo đúng đắn của Đảng"</strong>
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 vì trong giai đoạn 1965 – 1975, Đảng Cộng sản Việt Nam đã đề ra và thực hiện một đường lối chiến lược toàn diện, độc lập, tự chủ và sáng tạo, 
@@ -36,91 +33,42 @@ export function VictorySection() {
             </div>
           </Card>
 
-          {/* Four key points */}
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <Card className="p-8 hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-primary/30 group bg-gradient-to-br from-primary/5 to-transparent">
-              <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary/80 rounded-xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform ring-2 ring-primary/20">
-                <Shield className="w-8 h-8 text-primary-foreground" />
+          {/* Three key points - Giảm từ 4 xuống 3 */}
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <Card className="p-6 hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-primary/30 group bg-gradient-to-br from-primary/5 to-transparent">
+              <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary/80 rounded-xl flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform ring-2 ring-primary/20">
+                <Shield className="w-6 h-6 text-primary-foreground" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 group-hover:text-primary transition-colors">
-                1. Quyết Tâm & Hai Ngọn Cờ
+              <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
+                Quyết Tâm Chiến Lược
               </h3>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Đảng xác định quyết tâm chiến lược là "Động viên lực lượng của cả nước, kiên quyết đánh bại cuộc chiến tranh xâm lược của đế quốc Mỹ trong bất cứ tình huống nào". 
-                Đường lối kiên trì giương cao hai ngọn cờ độc lập dân tộc và chủ nghĩa xã hội.
+              <p className="text-muted-foreground leading-relaxed text-sm">
+                Giương cao hai ngọn cờ độc lập dân tộc và chủ nghĩa xã hội. "Tất cả để đánh thắng giặc Mỹ xâm lược".
               </p>
-              <div className="mt-4 p-4 bg-primary/5 rounded-lg border border-primary/20">
-                <p className="text-sm font-semibold text-primary">Khẩu hiệu:</p>
-                <p className="text-sm italic">"Tất cả để đánh thắng giặc Mỹ xâm lược"</p>
-              </div>
             </Card>
 
-            <Card className="p-8 hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-accent/20 group">
-              <div className="w-16 h-16 bg-gradient-to-br from-accent to-accent/80 rounded-xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform">
-                <Globe className="w-8 h-8 text-accent-foreground" />
+            <Card className="p-6 hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-accent/20 group">
+              <div className="w-12 h-12 bg-gradient-to-br from-accent to-accent/80 rounded-xl flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform">
+                <Globe className="w-6 h-6 text-accent-foreground" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 group-hover:text-accent transition-colors">
-                2. Hai Chiến Lược & Hậu Phương
+              <h3 className="text-xl font-bold mb-3 group-hover:text-accent transition-colors">
+                Hai Chiến Lược
               </h3>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Thành công trong việc lãnh đạo đồng thời hai chiến lược cách mạng: cách mạng xã hội chủ nghĩa ở miền Bắc và cách mạng dân tộc dân chủ nhân dân ở miền Nam. 
-                Miền Bắc giữ vai trò quyết định nhất.
+              <p className="text-muted-foreground leading-relaxed text-sm">
+                Miền Bắc - hậu phương vững chắc. Miền Nam - tiền tuyến quyết định. Hai chiến lược cách mạng đồng thời.
               </p>
-              <ul className="space-y-2 text-sm">
-                <li className="flex items-start gap-2">
-                  <span className="text-accent">🏛️</span>
-                  <span>Miền Bắc: Hậu phương vững chắc</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent">🎯</span>
-                  <span>Miền Nam: Tiền tuyến quyết định</span>
-                </li>
-              </ul>
             </Card>
 
-            <Card className="p-8 hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-primary/20 group">
-              <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary/80 rounded-xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform">
-                <Zap className="w-8 h-8 text-primary-foreground" />
+            <Card className="p-6 hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-primary/20 group">
+              <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary/80 rounded-xl flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform">
+                <Zap className="w-6 h-6 text-primary-foreground" />
               </div>
-              <h3 className="text-2xl font-bold mb-4 group-hover:text-primary transition-colors">
-                3. Phương Pháp Tổng Hợp
+              <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
+                Phương Pháp Tổng Hợp
               </h3>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Đánh lâu dài, dựa vào sức mình là chính, càng đánh càng mạnh, đồng thời cố gắng tập trung lực lượng để tranh thủ thời cơ giành thắng lợi quyết định trong thời gian tương đối ngắn.
+              <p className="text-muted-foreground leading-relaxed text-sm">
+                Ba mũi giáp công: Quân sự, Chính trị, Binh vận. Kết hợp đánh lâu dài và tranh thủ thời cơ quyết định.
               </p>
-              <ul className="space-y-2 text-sm">
-                <li className="flex items-start gap-2">
-                  <span className="text-primary">⚔️</span>
-                  <span>Ba mũi giáp công: Quân sự, Chính trị, Binh vận</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary">🌐</span>
-                  <span>Kết hợp quân sự, chính trị, ngoại giao</span>
-                </li>
-              </ul>
-            </Card>
-
-            <Card className="p-8 hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 border-transparent hover:border-accent/20 group">
-              <div className="w-16 h-16 bg-gradient-to-br from-accent to-accent/80 rounded-xl flex items-center justify-center mb-6 shadow-lg group-hover:scale-110 transition-transform">
-                <Lightbulb className="w-8 h-8 text-accent-foreground" />
-              </div>
-              <h3 className="text-2xl font-bold mb-4 group-hover:text-accent transition-colors">
-                4. Chuyển Hướng Linh Hoạt
-              </h3>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Chuyển hướng chiến lược linh hoạt: Từ đánh bại "Chiến tranh cục bộ" (1965-1968) đến chống "Việt Nam hóa chiến tranh" (1969-1975), 
-                luôn nắm vững thời cơ chiến lược.
-              </p>
-              <ul className="space-y-2 text-sm">
-                <li className="flex items-start gap-2">
-                  <span className="text-accent">🚀</span>
-                  <span>Mậu Thân 1968: Chuyển thế chiến lược</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent">⚡</span>
-                  <span>Xuân 1975: Chớp thời cơ quyết định</span>
-                </li>
-              </ul>
             </Card>
           </div>
 

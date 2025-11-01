@@ -36,7 +36,6 @@ export default function AIUsagePage() {
     { label: "Lý thuyết", href: "/#theory", icon: BookOpen },
     { label: "Đường lối", href: "/#leadership", icon: Shield },
     { label: "Thời gian", href: "/#timeline", icon: Clock },
-    { label: "Bản đồ", href: "/#map", icon: MapPin },
     { label: "Thắng lợi", href: "/#victory", icon: Trophy },
     { label: "AI Usage", href: "/ai-usage", icon: Bot, isExternal: true },
   ]

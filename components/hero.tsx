@@ -18,7 +18,7 @@ export function Hero() {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-balance leading-tight bg-gradient-to-r from-primary via-foreground to-primary bg-clip-text text-transparent">
-            Thắng Lợi Của Đường Lối Lãnh Đạo
+            THẮNG LỢI CỦA ĐƯỜNG LỐI LÃNH ĐẠO ĐÚNG ĐẮN CỦA ĐẢNG
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground text-balance">
@@ -44,13 +44,6 @@ export function Hero() {
             </p>
             <div className="text-sm font-semibold text-primary">— Chủ tịch Hồ Chí Minh</div>
           </div>
-        </div>
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-primary/60 rounded-full flex items-start justify-center p-2 bg-background/80 backdrop-blur-sm">
-          <div className="w-1 h-3 bg-primary rounded-full animate-pulse" />
         </div>
       </div>
     </section>

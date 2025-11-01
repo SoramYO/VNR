@@ -7,17 +7,9 @@ import { FileText, Rocket, Handshake, Scroll, Trophy } from "lucide-react"
 const timelineEvents = [
   {
     year: "1965",
-    title: "Hội nghị Trung ương lần thứ 11 & 12",
+    title: "Đường lối kháng chiến chống Mỹ",
     description:
-      'Tháng 3 và tháng 12-1965: Đề ra đường lối kháng chiến chống Mỹ, cứu nước trên phạm vi toàn quốc. Mỹ chuyển sang chiến lược "Chiến tranh cục bộ". Hội nghị xác định quyết tâm "Động viên lực lượng của cả nước, kiên quyết đánh bại cuộc chiến tranh xâm lược của đế quốc Mỹ".',
-    color: "primary",
-    icon: FileText,
-  },
-  {
-    year: "1967",
-    title: "Hội nghị Trung ương lần thứ 13",
-    description:
-      'Tháng 1-1967: Quyết định mở mặt trận ngoại giao, tạo cục diện vừa đánh, vừa đàm. Bắt đầu đàm phán tại Hội nghị Paris từ 13-5-1968.',
+      'Hội nghị Trung ương 11 & 12: Đề ra đường lối kháng chiến toàn quốc. "Động viên lực lượng của cả nước, kiên quyết đánh bại cuộc chiến tranh xâm lược của đế quốc Mỹ".',
     color: "primary",
     icon: FileText,
   },
@@ -25,33 +17,24 @@ const timelineEvents = [
     year: "1968",
     title: "Tổng Tiến Công Xuân Mậu Thân",
     description:
-      "Đêm 30 rạng ngày 31-1-1968: Bộ Chính trị ra nghị quyết chuyển sang phương pháp tổng công kích-tổng khởi nghĩa. Thất bại chiến lược có tính chất bước ngoặt của Mỹ. Mỹ chấm dứt ném bom miền Bắc (1-11-1968) và chấp nhận đàm phán tại Paris.",
+      "30-1-1968: Tổng công kích-tổng khởi nghĩa. Bước ngoặt chiến lược buộc Mỹ chấm dứt ném bom miền Bắc và chấp nhận đàm phán Paris.",
     color: "accent",
     highlight: true,
     icon: Rocket,
   },
   {
-    year: "1969-1973",
-    title: 'Chống "Việt Nam hóa chiến tranh"',
-    description:
-      'Quyết tâm hai bước "đánh cho Mỹ cút, đánh cho ngụy nhào". Mùa Xuân-Hè 1972: Tiến công chiến lược quy mô lớn, phá vỡ ba tuyến phòng ngự mạnh nhất của địch. Miền Bắc lập trận "Điện Biên Phủ trên không" (12 ngày đêm cuối năm 1972).',
-    color: "primary",
-    icon: Handshake,
-  },
-  {
     year: "1973",
-    title: "Hiệp định Paris & Nghị quyết 21",
+    title: "Hiệp định Paris",
     description:
-      "27-1-1973: Ký kết 'Hiệp định về chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam'. Hội nghị Trung ương lần thứ 21 (7-1973): Khẳng định con đường bạo lực cách mạng, phải nắm vững thời cơ.",
-    color: "accent",
-    highlight: true,
+      "27-1-1973: Ký 'Hiệp định chấm dứt chiến tranh, lập lại hòa bình ở Việt Nam'. Nghị quyết 21: Nắm vững thời cơ, tiếp tục con đường cách mạng.",
+    color: "primary",
     icon: Scroll,
   },
   {
     year: "1975",
-    title: "Tổng Tiến Công Xuân 1975",
+    title: "Giải Phóng Hoàn Toàn",
     description:
-      "Chiến thắng Phước Long (6-1-1975): Chứng tỏ khả năng giải phóng hoàn toàn. 55 ngày đêm (10-3 đến 30-4-1975): Từ Chiến dịch Tây Nguyên đến Chiến dịch Hồ Chí Minh. 30-4-1975, 11:30: Cắm cờ trên Dinh Độc Lập.",
+      "30-4-1975: Chiến thắng hoàn toàn. 55 ngày đêm từ Tây Nguyên đến Sài Gòn. Cắm cờ trên Dinh Độc Lập, thống nhất đất nước.",
     color: "accent",
     highlight: true,
     icon: Trophy,
@@ -70,11 +53,8 @@ export function TimelineSection() {
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-primary to-primary/80 rounded-full mb-6 shadow-lg">
-              <Scroll className="w-8 h-8 text-primary-foreground" />
-            </div>
             <h2 className="text-3xl md:text-5xl font-bold mb-4 text-balance bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Dòng Thời Gian Lịch Sử
+              DÒNG THỜI GIAN LỊCH SỬ
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
               Các quyết sách chiến lược quan trọng từ 1965 đến 1975

@@ -31,32 +31,25 @@ export function LeadershipSection() {
           {/* Section 2: Đánh bại "Chiến tranh cục bộ" */}
           <Card className="p-8 mb-8 bg-gradient-to-br from-primary/8 to-primary/5 border-2 border-primary/20 shadow-xl hover:shadow-2xl transition-all duration-300">
             <div className="flex items-center gap-4 mb-6">
-              <div className="w-14 h-14 bg-gradient-to-br from-primary to-primary/80 rounded-xl flex items-center justify-center shadow-lg ring-2 ring-primary/20">
-                <Shield className="w-8 h-8 text-primary-foreground" />
-              </div>
               <h3 className="text-2xl md:text-3xl font-bold text-primary">
                 2. Lãnh Đạo Đánh Bại "Chiến Tranh Cục Bộ" (1965–1968)
               </h3>
             </div>
 
             <div className="space-y-6">
-              {/* Miền Bắc - Simplified structure */}
+              {/* Miền Bắc - Chống chiến tranh phá hoại */}
               <article className="bg-background/80 backdrop-blur-sm p-6 rounded-lg border border-primary/20 shadow-sm">
                 <header className="flex items-start gap-3 mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-br from-primary to-primary/80 rounded-full flex items-center justify-center flex-shrink-0 shadow-md ring-2 ring-primary/20">
-                    <span className="text-primary-foreground font-bold text-sm">A</span>
-                  </div>
                   <h4 className="font-bold text-xl mb-3 text-primary">
-                    Miền Bắc - Chống Chiến Tranh Phá Hoại
+                    Miền Bắc - Chống Chiến Tranh Phá Hoại Lần Thứ Nhất
                   </h4>
                 </header>
                 
                 <div className="pl-13 space-y-3">
                   <p className="text-muted-foreground leading-relaxed">
-                    Từ <strong className="text-primary">5-8-1964</strong>, Mỹ
-                    dùng không quân và hải quân đánh phá miền Bắc. Trung ương
-                    Đảng kịp thời xác định chủ trương chuyển hướng xây dựng kinh
-                    tế phù hợp với tình hình chiến tranh.
+                    Từ <strong className="text-primary">5-8-1964</strong>, Mỹ dùng không quân và hải quân đánh phá miền Bắc. 
+                    Trung ương Đảng kịp thời xác định chủ trương chuyển hướng xây dựng kinh tế phù hợp với tình hình chiến tranh, 
+                    tăng cường quốc phòng và ra sức chi viện cho miền Nam với mức cao nhất.
                   </p>
 
                   {/* Image container */}
@@ -64,7 +57,7 @@ export function LeadershipSection() {
                     <img
                       src="/images/hcm.jpg"
                       alt="Chủ tịch Hồ Chí Minh"
-                      className="w-full h-64 object-cover rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
+                      className="w-full h-64 object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
                     />
                     <figcaption className="text-xs text-muted-foreground italic text-center mt-2">
                       Nguồn: Tài liệu lưu trữ lịch sử
@@ -84,6 +77,7 @@ export function LeadershipSection() {
                       </div>
                     </div>
                   </blockquote>
+
                   <div className="flex flex-col md:flex-row gap-3 mt-4">
                     <div className="flex-1 text-center p-3 bg-gradient-to-br from-primary/8 to-primary/5 rounded-lg border border-primary/20 shadow-sm">
                       <div className="text-2xl mb-2">✓</div>
@@ -101,72 +95,86 @@ export function LeadershipSection() {
                 </div>
               </article>
 
-              {/* Miền Nam - Simplified structure */}
+              {/* Miền Nam - Chiến đấu anh dũng */}
               <article className="bg-background/80 backdrop-blur-sm p-6 rounded-lg border border-primary/20 shadow-sm">
                 <header className="flex items-start gap-3 mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-br from-primary to-primary/80 rounded-full flex items-center justify-center flex-shrink-0 shadow-md ring-2 ring-primary/20">
-                    <span className="text-primary-foreground font-bold text-sm">B</span>
-                  </div>
                   <h4 className="font-bold text-xl mb-3 text-primary">
                     Miền Nam - Chiến Đấu Anh Dũng
                   </h4>
                 </header>
                 
-                <p className="pl-13 text-muted-foreground leading-relaxed">
-                  Quân và dân miền Nam đã anh dũng chiến đấu, bẻ gẫy cuộc phản
-                  công chiến lược mùa khô{" "}
-                  <strong className="text-primary">1965-1966</strong> và{" "}
-                  <strong className="text-primary">1966-1967</strong> của Mỹ,
-                  giữ vững quyền chủ động trên chiến trường.
-                </p>
+                <div className="pl-13 space-y-3">
+                  <p className="text-muted-foreground leading-relaxed">
+                    Quân và dân miền Nam đã anh dũng chiến đấu, bẻ gẫy cuộc phản công chiến lược mùa khô{" "}
+                    <strong className="text-primary">1965-1966</strong> và{" "}
+                    <strong className="text-primary">1966-1967</strong> của Mỹ, 
+                    giữ vững quyền chủ động trên chiến trường.
+                  </p>
+
+                  <div className="grid md:grid-cols-2 gap-3 mt-4">
+                    <div className="text-center p-3 bg-gradient-to-br from-primary/8 to-primary/5 rounded-lg border border-primary/20 shadow-sm">
+                      <div className="text-2xl mb-2">⚔️</div>
+                      <p className="text-sm text-primary font-semibold">Bẻ gẫy phản công mùa khô 1965-1966</p>
+                    </div>
+                    <div className="text-center p-3 bg-gradient-to-br from-primary/8 to-primary/5 rounded-lg border border-primary/20 shadow-sm">
+                      <div className="text-2xl mb-2">🎯</div>
+                      <p className="text-sm text-primary font-semibold">Giữ vững chủ động chiến trường</p>
+                    </div>
+                  </div>
+                </div>
               </article>
 
-              {/* Chuyển hướng chiến lược - Simplified */}
+              {/* Chuyển hướng chiến lược */}
               <article className="bg-background/80 backdrop-blur-sm p-6 rounded-lg border border-primary/20 shadow-sm">
                 <header className="flex items-start gap-3 mb-4">
-                  <div className="w-10 h-10 bg-gradient-to-br from-primary to-primary/80 rounded-full flex items-center justify-center flex-shrink-0 shadow-md ring-2 ring-primary/20">
-                    <span className="text-primary-foreground font-bold text-sm">C</span>
-                  </div>
                   <h4 className="font-bold text-xl mb-3 text-primary">
                     Chuyển Hướng Chiến Lược
                   </h4>
                 </header>
                 
-                <p className="pl-13 text-muted-foreground leading-relaxed mb-3">
-                  Hội nghị Trung ương lần thứ{" "}
-                  <strong className="text-primary">13 (1-1967)</strong> quyết
-                  định mở mặt trận ngoại giao, tạo cục diện{" "}
-                  <strong>vừa đánh, vừa đàm</strong>.
-                </p>
+                <div className="pl-13 space-y-3">
+                  <p className="text-muted-foreground leading-relaxed">
+                    Hội nghị Trung ương lần thứ <strong className="text-primary">13 (1-1967)</strong> quyết định 
+                    mở mặt trận ngoại giao, tạo cục diện <strong className="text-primary">vừa đánh, vừa đàm</strong>.
+                  </p>
+
+                  <div className="bg-primary/5 p-4 rounded-lg border border-primary/20">
+                    <div className="flex items-center gap-2 mb-2">
+                      <Globe className="w-5 h-5 text-primary" />
+                      <strong className="text-primary">Mặt trận ngoại giao</strong>
+                    </div>
+                    <p className="text-sm text-muted-foreground">
+                      Kết hợp đấu tranh quân sự với đấu tranh ngoại giao để tạo áp lực toàn diện lên Mỹ
+                    </p>
+                  </div>
+                </div>
               </article>
 
-              {/* Tổng tiến công Mậu Thân - Simplified */}
+              {/* Tổng tiến công Mậu Thân 1968 */}
               <article className="bg-gradient-to-br from-primary/10 to-primary/5 p-6 rounded-lg border-2 border-primary/30 shadow-sm">
                 <header className="flex items-start gap-3 mb-4">
-                  <Rocket className="w-10 h-10 text-primary flex-shrink-0" />
                   <div>
                     <h4 className="font-bold text-xl mb-2 text-primary">
                       Tổng Tiến Công và Nổi Dậy Mậu Thân 1968
                     </h4>
                     <span className="text-sm text-primary font-semibold">
-                      🏆 Thất bại chiến lược bước ngoặt
+                      🏆 Thất bại chiến lược bước ngoặt của Mỹ
                     </span>
                   </div>
                 </header>
                 
                 <div className="space-y-4">
                   <p className="text-muted-foreground leading-relaxed">
-                    Tháng <strong className="text-primary">12-1967</strong>, Bộ
-                    Chính trị ra nghị quyết chuyển cuộc chiến tranh cách mạng
-                    miền Nam sang thời kỳ tiến lên giành thắng lợi quyết định
-                    bằng phương pháp tổng công kích-tổng khởi nghĩa.
+                    Tháng <strong className="text-primary">12-1967</strong>, Bộ Chính trị ra nghị quyết 
+                    chuyển cuộc chiến tranh cách mạng miền Nam sang thời kỳ tiến lên giành thắng lợi quyết định 
+                    bằng phương pháp <strong className="text-primary">tổng công kích-tổng khởi nghĩa</strong>.
                   </p>
 
                   <figure className="my-4 bg-muted/50 p-4 rounded-lg border-2 border-dashed border-primary/30">
                     <img
                       src="/images/mau-than-1968.jpg"
                       alt="Tổng tiến công Xuân Mậu Thân"
-                      className="w-full h-64 object-cover rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
+                      className="w-full h-64 object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
                     />
                     <figcaption className="text-xs text-muted-foreground italic text-center mt-2">
                       Nguồn: Tài liệu lưu trữ lịch sử
@@ -175,29 +183,18 @@ export function LeadershipSection() {
 
                   <div className="flex flex-col md:flex-row gap-4">
                     <div className="flex-1 bg-background/80 p-4 rounded-lg border border-primary/20 shadow-sm">
-                      <p className="text-sm font-semibold text-primary mb-2">
-                        📅 Thời gian
-                      </p>
-                      <p className="text-sm text-muted-foreground">
-                        Đêm 30 rạng ngày 31-1-1968
-                      </p>
+                      <p className="text-sm font-semibold text-primary mb-2">📅 Thời gian</p>
+                      <p className="text-sm text-muted-foreground">Đêm 30 rạng ngày 31-1-1968</p>
                     </div>
                     <div className="flex-1 bg-background/80 p-4 rounded-lg border border-primary/20 shadow-sm">
-                      <p className="text-sm font-semibold text-primary mb-2">
-                        🎯 Kết quả
-                      </p>
-                      <p className="text-sm text-muted-foreground">
-                        Mỹ chấm dứt ném bom miền Bắc (1-11-1968)
-                      </p>
+                      <p className="text-sm font-semibold text-primary mb-2">🎯 Kết quả</p>
+                      <p className="text-sm text-muted-foreground">Mỹ chấm dứt ném bom miền Bắc (1-11-1968)</p>
                     </div>
                   </div>
                   
                   <footer className="mt-4 p-4 bg-primary/10 rounded-lg border border-primary/30 shadow-sm text-center">
                     <Handshake className="w-5 h-5 inline-block mr-2 text-primary" />
-                    Chấp nhận đàm phán tại{" "}
-                    <strong className="text-primary">
-                      Hội nghị Paris (từ 13-5-1968)
-                    </strong>
+                    Chấp nhận đàm phán tại <strong className="text-primary">Hội nghị Paris (từ 13-5-1968)</strong>
                   </footer>
                 </div>
               </article>
@@ -207,9 +204,6 @@ export function LeadershipSection() {
           {/* Section 3: "Việt Nam hóa chiến tranh" */}
           <Card className="p-8 mb-8 bg-gradient-to-br from-primary/8 to-primary/5 border-2 border-primary/20 shadow-xl hover:shadow-2xl transition-all duration-300">
             <div className="flex items-center gap-4 mb-6">
-              <div className="w-14 h-14 bg-gradient-to-br from-primary to-primary/80 rounded-xl flex items-center justify-center shadow-lg ring-2 ring-primary/20">
-                <Target className="w-8 h-8 text-primary-foreground" />
-              </div>
               <h3 className="text-2xl md:text-3xl font-bold text-primary">
                 3. Đánh Bại "Việt Nam Hóa Chiến Tranh" & Tổng Tiến Công 1975
                 (1969–1975)
@@ -291,7 +285,7 @@ export function LeadershipSection() {
                     <img
                       src="/images/tong-tien-cong-chien-luoc.jpg"
                       alt="Tiến công 1972"
-                      className="w-full h-64 object-cover rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
+                      className="w-full h-64 object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
                     />
                     <figcaption className="text-xs text-muted-foreground italic text-center mt-2">
                       Nguồn: Tài liệu lưu trữ lịch sử
@@ -338,7 +332,7 @@ export function LeadershipSection() {
                     <img
                       src="/images/ki-hiep-dinh-paris.jpg"
                       alt="Ký kết Hiệp định Paris"
-                      className="w-full h-64 object-cover rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
+                      className="w-full h-64 object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
                     />
                     <figcaption className="text-xs text-muted-foreground italic text-center mt-2">
                       Nguồn: Tài liệu lưu trữ lịch sử
@@ -438,7 +432,7 @@ export function LeadershipSection() {
                     <img
                       src="/images/mien-nam.jpg"
                       alt="Chiến thắng 30-4-1975"
-                      className="w-full h-64 object-cover rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
+                      className="w-full h-64 object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
                     />
                     <figcaption className="text-xs text-muted-foreground italic text-center mt-2">
                       Nguồn: Tài liệu lưu trữ lịch sử

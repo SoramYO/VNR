@@ -56,25 +56,10 @@ export function Footer() {
               </ul>
             </div>
           </div>
-
-          <div className="pt-8 border-t-2 border-border">
-            <div className="bg-gradient-to-br from-muted/80 to-background p-6 rounded-lg border-2 border-primary/20 shadow-lg">
-              <h4 className="font-bold mb-3 text-sm flex items-center gap-2">
-                <span className="text-2xl">🤖</span>
-                Phụ Lục AI Usage
-              </h4>
-              <p className="text-xs text-muted-foreground leading-relaxed">
-                Nội dung thuyết trình được tổng hợp, phân tích và cấu trúc bởi mô hình ngôn ngữ AI dựa trên nguồn tài
-                liệu lịch sử chính thống cung cấp (Giáo trình Lịch sử Đảng Cộng sản Việt Nam). AI được sử dụng để trích
-                xuất, tổng hợp và tổ chức thông tin theo yêu cầu học thuật.
-              </p>
-            </div>
-          </div>
-
           <div className="mt-8 text-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full border border-primary/20">
               <span className="text-xs text-muted-foreground font-medium">
-                © 2025 Lịch sử Đảng Cộng sản Việt Nam. Trang web học thuật.
+                ©  Nhóm 5 - SE1739 - FPTU
               </span>
             </div>
           </div>

@@ -12,8 +12,8 @@
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.15 0.01 30);
   
-  /* Primary: Đỏ truyền thống Việt Nam */
-  --primary: oklch(0.48 0.15 15); /* Deep Vietnamese red */
+  /* Primary: Màu chủ đạo #c82333 */
+  --primary: #c82333; /* Custom red color */
   --primary-foreground: oklch(0.98 0.005 85);
   
   /* Secondary: Tông nâu đất ấm áp */
@@ -32,10 +32,10 @@
   --destructive-foreground: oklch(0.985 0 0);
   --border: oklch(0.90 0.008 75);
   --input: oklch(0.92 0.008 75);
-  --ring: oklch(0.48 0.15 15);
+  --ring: #c82333;
   
   /* Chart colors - unified palette */
-  --chart-1: oklch(0.48 0.15 15);
+  --chart-1: #c82333;
   --chart-2: oklch(0.72 0.08 65);
   --chart-3: oklch(0.38 0.08 25);
   --chart-4: oklch(0.82 0.05 55);
@@ -61,8 +61,8 @@
   --popover: oklch(0.18 0.01 25);
   --popover-foreground: oklch(0.95 0.005 85);
   
-  /* Primary: Đỏ truyền thống sáng hơn cho dark mode */
-  --primary: oklch(0.58 0.15 15);
+  /* Primary: Màu chủ đạo #c82333 cho dark mode */
+  --primary: #c82333; /* Custom red color */
   --primary-foreground: oklch(0.98 0.005 85);
   
   /* Secondary: Tông nâu ấm áp */
@@ -81,10 +81,10 @@
   --destructive-foreground: oklch(0.985 0 0);
   --border: oklch(0.25 0.01 25);
   --input: oklch(0.25 0.01 25);
-  --ring: oklch(0.58 0.15 15);
+  --ring: #c82333;
   
   /* Chart colors - unified dark palette */
-  --chart-1: oklch(0.58 0.15 15);
+  --chart-1: #c82333;
   --chart-2: oklch(0.72 0.08 65);
   --chart-3: oklch(0.48 0.08 25);
   --chart-4: oklch(0.82 0.05 55);
