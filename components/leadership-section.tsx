@@ -450,7 +450,7 @@ export function LeadershipSection() {
               <div className="bg-gradient-to-br from-primary/10 to-accent/5 p-6 rounded-lg border-2 border-primary/30">
                 <div className="flex items-start gap-3 mb-4">
                   <Trophy className="w-10 h-10 text-primary flex-shrink-0" />
-                  <div>
+              <div>
                     <h4 className="font-bold text-xl mb-2 text-primary">
                       Tổng Tiến Công Và Nổi Dậy Xuân 1975
                     </h4>
@@ -479,9 +479,9 @@ export function LeadershipSection() {
                       </div>
                       <p className="text-xs text-muted-foreground italic">
                         Nguồn: Tài liệu lưu trữ lịch sử
-                      </p>
-                    </div>
-                  </div>
+                </p>
+              </div>
+            </div>
 
                   <div className="grid md:grid-cols-2 gap-3">
                     <div className="bg-background/80 p-4 rounded-lg border border-primary/20">
