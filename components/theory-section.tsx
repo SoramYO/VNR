@@ -1,94 +1,144 @@
 import { Card } from "@/components/ui/card"
-import { BookOpen, Target, Users } from "lucide-react"
+import { BookOpen, Target, Shield, Sparkles, Flag, Zap, Mic, Award, FileText } from "lucide-react"
 
 export function TheorySection() {
   return (
-    <section id="theory" className="py-20 bg-muted/30">
-      <div className="container mx-auto px-4">
+    <section id="theory" className="py-20 bg-gradient-to-b from-muted/30 via-background to-muted/20 relative overflow-hidden">
+      {/* Decorative background elements */}
+      <div className="absolute top-10 left-10 w-32 h-32 bg-primary/5 rounded-full blur-3xl"></div>
+      <div className="absolute bottom-10 right-10 w-40 h-40 bg-accent/5 rounded-full blur-3xl"></div>
+      
+      <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-balance">Cơ Sở Lý Thuyết</h2>
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-primary to-primary/80 rounded-full mb-6 shadow-lg">
+              <Sparkles className="w-8 h-8 text-primary-foreground" />
+            </div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-balance bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              Lý Thuyết
+            </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
-              Nền tảng tư tưởng và vai trò lãnh đạo của Đảng Cộng sản Việt Nam
+              Đường lối chiến lược chung và nền tảng tư tưởng của Đảng Cộng sản Việt Nam (1965-1975)
             </p>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-16">
-            <Card className="p-6 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <BookOpen className="w-6 h-6 text-primary" />
+          {/* Section 1: Đường lối chiến lược chung (1965) */}
+          <div className="mb-16">
+            <Card className="p-8 bg-gradient-to-br from-primary/10 to-accent/5 border-2 border-primary/30 shadow-xl">
+              <div className="flex items-center gap-4 mb-6">
+                <div className="w-14 h-14 bg-gradient-to-br from-primary to-primary/80 rounded-xl flex items-center justify-center shadow-lg">
+                  <Target className="w-8 h-8 text-primary-foreground" />
+                </div>
+                <h3 className="text-2xl md:text-3xl font-bold text-primary">1. Đường Lối Chiến Lược Chung (1965)</h3>
               </div>
-              <h3 className="text-xl font-bold mb-3">Nền Tảng Tư Tưởng</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Đảng lấy chủ nghĩa Mác-Lênin và tư tưởng Hồ Chí Minh làm nền tảng tư tưởng, kim chỉ nam cho hành động.
-              </p>
-            </Card>
 
-            <Card className="p-6 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
-                <Target className="w-6 h-6 text-accent" />
-              </div>
-              <h3 className="text-xl font-bold mb-3">Vai Trò Lãnh Đạo</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Sự lãnh đạo đúng đắn của Đảng là nhân tố hàng đầu quyết định thắng lợi của cách mạng.
-              </p>
-            </Card>
+              <div className="space-y-6">
+                {/* Quyết tâm chiến lược */}
+                <div className="bg-background p-6 rounded-lg border border-primary/20">
+                  <div className="flex items-start gap-3 mb-4">
+                    <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center flex-shrink-0 shadow-md">
+                      <span className="text-primary-foreground font-bold">1.1</span>
+                    </div>
+                    <h4 className="font-bold text-xl mb-3 text-primary">Quyết Tâm Chiến Lược</h4>
+                  </div>
+                  <div className="pl-13 space-y-3">
+                    <p className="text-muted-foreground leading-relaxed">
+                      Hội nghị Trung ương lần thứ <strong className="text-primary">11 (3-1965)</strong> và lần thứ <strong className="text-primary">12 (12-1965)</strong> đã phát động cuộc kháng chiến chống Mỹ, cứu nước trên phạm vi toàn quốc.
+                    </p>
+                    
+                    {/* Image */}
+                    <div className="my-4 bg-muted/50 p-4 rounded-lg border-2 border-dashed border-primary/30 text-center">
+                      <div className="flex flex-col items-center gap-2">
+                        <div className="w-full h-48 bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg flex items-center justify-center overflow-hidden">
+                          <img src="/images/trung-uong-11.jpg" alt="Hội nghị Trung ương Đảng" className="w-full h-full object-cover" />
+                        </div>
+                        <p className="text-xs text-muted-foreground italic">Nguồn: Tài liệu lưu trữ lịch sử</p>
+                      </div>
+                    </div>
+                    
+                    <div className="bg-primary/5 p-4 rounded-lg border-l-4 border-primary">
+                      <p className="text-muted-foreground leading-relaxed italic">
+                        "Động viên lực lượng của cả nước, kiên quyết đánh bại cuộc chiến tranh xâm lược của đế quốc Mỹ trong bất cứ tình huống nào" để bảo vệ miền Bắc, giải phóng miền Nam, hoàn thành cách mạng dân tộc dân chủ nhân dân, tiến tới thống nhất nước nhà.
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
-            <Card className="p-6 hover:shadow-lg transition-shadow">
-              <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                <Users className="w-6 h-6 text-primary" />
+                {/* Hai ngọn cờ lãnh đạo */}
+                <div className="bg-background p-6 rounded-lg border border-accent/20">
+                  <div className="flex items-start gap-3 mb-4">
+                    <div className="w-10 h-10 bg-accent rounded-full flex items-center justify-center flex-shrink-0 shadow-md">
+                      <span className="text-accent-foreground font-bold">1.2</span>
+                    </div>
+                    <h4 className="font-bold text-xl mb-3 text-accent">Hai Ngọn Cờ Lãnh Đạo</h4>
+                  </div>
+                  <div className="pl-13 space-y-3">
+                    <p className="text-muted-foreground leading-relaxed mb-4">
+                      Đảng kiên trì giương cao hai ngọn cờ độc lập dân tộc và chủ nghĩa xã hội, tiếp tục tiến hành đồng thời hai chiến lược cách mạng:
+                    </p>
+                    <div className="grid md:grid-cols-2 gap-4">
+                      <div className="bg-gradient-to-br from-primary/5 to-transparent p-4 rounded-lg border border-primary/20">
+                        <div className="flex items-center gap-2 mb-2">
+                          <Flag className="w-5 h-5 text-primary" />
+                          <strong className="text-primary">Miền Bắc</strong>
+                        </div>
+                        <p className="text-sm text-muted-foreground">Cách mạng xã hội chủ nghĩa</p>
+                      </div>
+                      <div className="bg-gradient-to-br from-accent/5 to-transparent p-4 rounded-lg border border-accent/20">
+                        <div className="flex items-center gap-2 mb-2">
+                          <Shield className="w-5 h-5 text-accent" />
+                          <strong className="text-accent">Miền Nam</strong>
+                        </div>
+                        <p className="text-sm text-muted-foreground">Cách mạng dân tộc dân chủ nhân dân</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Phương châm */}
+                <div className="bg-background p-6 rounded-lg border border-primary/20">
+                  <div className="flex items-start gap-3 mb-4">
+                    <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center flex-shrink-0 shadow-md">
+                      <span className="text-primary-foreground font-bold">1.3</span>
+                    </div>
+                    <h4 className="font-bold text-xl mb-3 text-primary">Phương Châm</h4>
+                  </div>
+                  <div className="pl-13">
+                    <p className="text-muted-foreground leading-relaxed mb-4">
+                      Thực hiện đường lối chiến tranh nhân dân, toàn dân, toàn diện, lâu dài, dựa vào sức mình là chính trong hoàn cảnh mới.
+                    </p>
+                    <div className="grid md:grid-cols-3 gap-3">
+                      <div className="text-center p-3 bg-primary/5 rounded-lg">
+                        <div className="text-2xl mb-1">👥</div>
+                        <p className="text-xs font-semibold">Toàn dân</p>
+                      </div>
+                      <div className="text-center p-3 bg-accent/5 rounded-lg">
+                        <div className="text-2xl mb-1">🌐</div>
+                        <p className="text-xs font-semibold">Toàn diện</p>
+                      </div>
+                      <div className="text-center p-3 bg-primary/5 rounded-lg">
+                        <div className="text-2xl mb-1">🔄</div>
+                        <p className="text-xs font-semibold">Lâu dài</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <h3 className="text-xl font-bold mb-3">Đường Lối Đúng Đắn</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Cương lĩnh, đường lối đúng đắn là điều kiện trước hết quyết định thắng lợi của cách mạng.
-              </p>
             </Card>
           </div>
 
-          <Card className="p-8 bg-gradient-to-br from-primary/5 to-accent/5 border-primary/20">
-            <h3 className="text-2xl font-bold mb-6 text-center">Chiến Lược Cách Mạng Đồng Thời (1954–1975)</h3>
-
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-primary-foreground font-bold">1</span>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-lg mb-2">Miền Bắc - Hậu Phương Lớn</h4>
-                    <p className="text-muted-foreground leading-relaxed">
-                      Cách mạng xã hội chủ nghĩa: Xây dựng tiềm lực, bảo vệ căn cứ địa của cả nước, hậu thuẫn cho cách
-                      mạng miền Nam. Giữ <strong>vai trò quyết định nhất</strong> đối với sự phát triển của toàn bộ cách
-                      mạng Việt Nam.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="space-y-4">
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 bg-accent rounded-full flex items-center justify-center flex-shrink-0 mt-1">
-                    <span className="text-accent-foreground font-bold">2</span>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-lg mb-2">Miền Nam - Tiền Tuyến Lớn</h4>
-                    <p className="text-muted-foreground leading-relaxed">
-                      Cách mạng dân tộc dân chủ nhân dân: Giữ <strong>vai trò quyết định trực tiếp</strong> đối với sự
-                      nghiệp giải phóng miền Nam, thực hiện hòa bình thống nhất nước nhà.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-8 p-6 bg-background rounded-lg border-2 border-primary/20">
+          {/* Kết luận ngắn */}
+          <Card className="p-6 bg-gradient-to-r from-primary/10 to-accent/10 border-2 border-primary/30">
+            <div className="flex items-center justify-center gap-2 mb-2">
+              <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
               <p className="text-center font-semibold text-lg">
-                Mục tiêu chung: <span className="text-primary">Giải phóng miền Nam, hòa bình thống nhất Tổ quốc</span>
+                Mục tiêu: <span className="text-primary bg-primary/10 px-3 py-1 rounded">Giải phóng miền Nam, hòa bình thống nhất Tổ quốc</span>
               </p>
-              <p className="text-center text-muted-foreground mt-2">
-                Dựa trên ngọn cờ độc lập dân tộc và chủ nghĩa xã hội
-              </p>
+              <div className="w-2 h-2 bg-accent rounded-full animate-pulse"></div>
             </div>
+            <p className="text-center text-muted-foreground">
+              🌟 Dựa trên hai ngọn cờ: Độc lập dân tộc và Chủ nghĩa xã hội
+            </p>
           </Card>
         </div>
       </div>
