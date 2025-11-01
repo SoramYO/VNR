@@ -439,16 +439,16 @@ export function LeadershipSection() {
                     </figcaption>
                   </figure>
 
-                  <div className="flex flex-col md:flex-row gap-3">
-                    <div className="bg-background/80 p-4 rounded-lg border border-primary/20">
+                  <div className="flex flex-col md:flex-row gap-4">
+                    <div className="flex-1 bg-background/80 p-4 rounded-lg border border-primary/20 shadow-sm">
                       <p className="text-sm font-semibold text-primary mb-2">
                         📍 Bắt đầu
                       </p>
                       <p className="text-sm text-muted-foreground">
                         Chiến dịch Tây Nguyên (10-3-1975)
                       </p>
-                    </div>
-                    <div className="bg-background/80 p-4 rounded-lg border border-primary/20">
+                      </div>
+                      <div className="flex-1 bg-background/80 p-4 rounded-lg border border-primary/20 shadow-sm">
                       <p className="text-sm font-semibold text-primary mb-2">
                         🏁 Kết thúc
                       </p>
