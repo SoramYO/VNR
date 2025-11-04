@@ -15,14 +15,14 @@ export function TheorySection() {
           <div className="mb-16">
             <Card className="p-8 bg-gradient-to-br from-primary/8 to-primary/5 border-2 border-primary/20 shadow-xl hover:shadow-2xl transition-all duration-300">
               <div className="flex items-center gap-4 mb-6">
-                <h3 className="text-2xl md:text-3xl font-bold text-primary">1. Đường Lối Chiến Lược Chung (1965)</h3>
+                <h3 className="text-2xl md:text-3xl font-bold text-primary">1. Đường lối chiến lược chung (1965)</h3>
               </div>
 
               <div className="space-y-6">
                 {/* Nội dung tóm gọn */}
                 <div className="bg-background/80 backdrop-blur-sm p-6 rounded-lg border border-primary/20 shadow-sm">
                   <div className="space-y-4">
-                    <h4 className="font-bold text-xl mb-3 text-primary">Quyết Tâm và Phương Châm Chiến Lược</h4>
+                    <h4 className="font-bold text-xl mb-3 text-primary">Quyết tâm và phương châm chiến lược</h4>
                     
                     <p className="text-muted-foreground leading-relaxed">
                       Hội nghị Trung ương lần thứ <strong className="text-primary">11 (3-1965)</strong> và lần thứ <strong className="text-primary">12 (12-1965)</strong> phát động cuộc kháng chiến chống Mỹ, cứu nước toàn quốc, giương cao hai ngọn cờ độc lập dân tộc và chủ nghĩa xã hội.

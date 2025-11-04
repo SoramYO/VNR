@@ -15,7 +15,7 @@ const timelineEvents = [
   },
   {
     year: "1968",
-    title: "Tổng Tiến Công Xuân Mậu Thân",
+    title: "Tổng tiến công Xuân Mậu Thân",
     description:
       "30-1-1968: Tổng công kích-tổng khởi nghĩa. Bước ngoặt chiến lược buộc Mỹ chấm dứt ném bom miền Bắc và chấp nhận đàm phán Paris.",
     color: "accent",
@@ -32,7 +32,7 @@ const timelineEvents = [
   },
   {
     year: "1975",
-    title: "Giải Phóng Hoàn Toàn",
+    title: "Giải phóng hoàn toàn",
     description:
       "30-4-1975: Chiến thắng hoàn toàn. 55 ngày đêm từ Tây Nguyên đến Sài Gòn. Cắm cờ trên Dinh Độc Lập, thống nhất đất nước.",
     color: "accent",
@@ -54,7 +54,7 @@ export function TimelineSection() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-5xl font-bold mb-4 text-balance bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              DÒNG THỜI GIAN LỊCH SỬ
+              Dòng thời gian lịch sử
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-balance">
               Các quyết sách chiến lược quan trọng từ 1965 đến 1975

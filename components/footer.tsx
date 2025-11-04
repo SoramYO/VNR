@@ -38,7 +38,7 @@ export function Footer() {
                 <div className="w-8 h-8 bg-accent/10 rounded-lg flex items-center justify-center">
                   <BookOpen className="w-5 h-5 text-accent" />
                 </div>
-                Nguồn Tài Liệu
+                Nguồn tài liệu
               </h3>
               <ul className="space-y-3 text-sm text-muted-foreground">
                 <li className="flex items-start gap-3 p-2 rounded-lg hover:bg-primary/5 transition-colors group">

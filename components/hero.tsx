@@ -18,7 +18,7 @@ export function Hero() {
           </div>
 
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-balance leading-tight bg-gradient-to-r from-primary via-foreground to-primary bg-clip-text text-transparent">
-            THẮNG LỢI CỦA ĐƯỜNG LỐI LÃNH ĐẠO ĐÚNG ĐẮN CỦA ĐẢNG
+            Thắng lợi của đường lối lãnh đạo đúng đắn của Đảng
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground text-balance">

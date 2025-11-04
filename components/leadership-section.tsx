@@ -32,7 +32,7 @@ export function LeadershipSection() {
           <Card className="p-8 mb-8 bg-gradient-to-br from-primary/8 to-primary/5 border-2 border-primary/20 shadow-xl hover:shadow-2xl transition-all duration-300">
             <div className="flex items-center gap-4 mb-6">
               <h3 className="text-2xl md:text-3xl font-bold text-primary">
-                2. Lãnh Đạo Đánh Bại "Chiến Tranh Cục Bộ" (1965–1968)
+                2. Lãnh đạo đánh bại "Chiến tranh cục bộ" (1965-1968)
               </h3>
             </div>
 
@@ -41,7 +41,7 @@ export function LeadershipSection() {
               <article className="bg-background/80 backdrop-blur-sm p-6 rounded-lg border border-primary/20 shadow-sm">
                 <header className="flex items-start gap-3 mb-4">
                   <h4 className="font-bold text-xl mb-3 text-primary">
-                    Miền Bắc - Chống Chiến Tranh Phá Hoại Lần Thứ Nhất
+                    Miền Bắc - chống chiến tranh phá hoại lần thứ nhất
                   </h4>
                 </header>
                 
@@ -99,7 +99,7 @@ export function LeadershipSection() {
               <article className="bg-background/80 backdrop-blur-sm p-6 rounded-lg border border-primary/20 shadow-sm">
                 <header className="flex items-start gap-3 mb-4">
                   <h4 className="font-bold text-xl mb-3 text-primary">
-                    Miền Nam - Chiến Đấu Anh Dũng
+                    Miền Nam - chiến đấu anh dũng
                   </h4>
                 </header>
                 
@@ -128,7 +128,7 @@ export function LeadershipSection() {
               <article className="bg-background/80 backdrop-blur-sm p-6 rounded-lg border border-primary/20 shadow-sm">
                 <header className="flex items-start gap-3 mb-4">
                   <h4 className="font-bold text-xl mb-3 text-primary">
-                    Chuyển Hướng Chiến Lược
+                    Chuyển hướng chiến lược
                   </h4>
                 </header>
                 
@@ -155,7 +155,7 @@ export function LeadershipSection() {
                 <header className="flex items-start gap-3 mb-4">
                   <div>
                     <h4 className="font-bold text-xl mb-2 text-primary">
-                      Tổng Tiến Công và Nổi Dậy Mậu Thân 1968
+                      Tổng tiến công và nổi dậy Mậu Thân 1968
                     </h4>
                     <span className="text-sm text-primary font-semibold">
                       🏆 Thất bại chiến lược bước ngoặt của Mỹ
@@ -205,8 +205,8 @@ export function LeadershipSection() {
           <Card className="p-8 mb-8 bg-gradient-to-br from-primary/8 to-primary/5 border-2 border-primary/20 shadow-xl hover:shadow-2xl transition-all duration-300">
             <div className="flex items-center gap-4 mb-6">
               <h3 className="text-2xl md:text-3xl font-bold text-primary">
-                3. Đánh Bại "Việt Nam Hóa Chiến Tranh" & Tổng Tiến Công 1975
-                (1969–1975)
+                3. Đánh bại "Việt Nam hóa chiến tranh" & Tổng tiến công 1975<br/>
+                (1969-1975)
               </h3>
             </div>
 
@@ -217,7 +217,7 @@ export function LeadershipSection() {
                   <User className="w-10 h-10 text-primary flex-shrink-0" />
                   <div>
                     <h4 className="font-bold text-xl mb-2 text-primary">
-                      Chiến Lược Mới Của Mỹ
+                      Chiến lược mới của Mỹ
                     </h4>
                     <p className="text-sm text-primary/70">
                       Tổng thống Nixon thay "Chiến tranh cục bộ" bằng "Việt Nam
@@ -242,7 +242,7 @@ export function LeadershipSection() {
                   <Swords className="w-10 h-10 text-primary flex-shrink-0" />
                   <div>
                     <h4 className="font-bold text-xl mb-2 text-primary">
-                      Quyết Tâm Hai Bước
+                      Quyết tâm hai bước
                     </h4>
                     <p className="text-sm text-primary/70">
                       Đảng đề ra quyết tâm chiến lược
@@ -267,7 +267,7 @@ export function LeadershipSection() {
                   <Rocket className="w-10 h-10 text-primary flex-shrink-0" />
                   <div>
                     <h4 className="font-bold text-xl mb-2 text-primary">
-                      Thắng Lợi Lớn Năm 1972
+                      Thắng lợi lớn năm 1972
                     </h4>
                     <p className="text-sm text-primary/70">Mùa Xuân-Hè 1972</p>
                   </div>
@@ -317,7 +317,7 @@ export function LeadershipSection() {
                   <Handshake className="w-10 h-10 text-primary flex-shrink-0" />
                   <div>
                     <h4 className="font-bold text-xl mb-2 text-primary">
-                      Hiệp Định Paris
+                      Hiệp định Paris
                     </h4>
                     <p className="text-sm text-primary/70">27-1-1973</p>
                   </div>
@@ -354,7 +354,7 @@ export function LeadershipSection() {
                   <FolderOpen className="w-10 h-10 text-primary flex-shrink-0" />
                   <div>
                     <h4 className="font-bold text-xl mb-2 text-primary">
-                      Quyết Tâm Cuối Cùng
+                      Quyết tâm cuối cùng
                     </h4>
                     <p className="text-sm text-primary/70">
                       Hội nghị Trung ương lần thứ 21 (7-1973)
@@ -387,7 +387,7 @@ export function LeadershipSection() {
                   <Target className="w-10 h-10 text-primary flex-shrink-0" />
                   <div>
                     <h4 className="font-bold text-xl mb-2 text-primary">
-                      Kế Hoạch Chiến Lược 1975
+                      Kế hoạch chiến lược 1975
                     </h4>
                     <p className="text-sm text-primary/70">
                       Cuối 1974 - đầu 1975
@@ -477,7 +477,7 @@ export function LeadershipSection() {
                 <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary/80 rounded-lg flex items-center justify-center flex-shrink-0 shadow-md ring-2 ring-primary/20">
                   <Swords className="w-6 h-6 text-primary-foreground" />
                 </div>
-                <h3 className="text-xl font-bold text-primary">Phương Châm</h3>
+                <h3 className="text-xl font-bold text-primary">Phương châm</h3>
               </div>
               <ul className="space-y-2 text-muted-foreground text-sm">
                 <li className="flex items-start gap-2">
@@ -500,7 +500,7 @@ export function LeadershipSection() {
                 <div className="w-12 h-12 bg-gradient-to-br from-primary to-primary/80 rounded-lg flex items-center justify-center flex-shrink-0 shadow-md ring-2 ring-primary/20">
                   <Flag className="w-6 h-6 text-primary-foreground" />
                 </div>
-                <h3 className="text-xl font-bold text-primary">Nguyên Tắc</h3>
+                <h3 className="text-xl font-bold text-primary">Nguyên tắc</h3>
               </div>
               <ul className="space-y-2 text-muted-foreground text-sm">
                 <li className="flex items-start gap-2">

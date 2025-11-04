@@ -15,8 +15,8 @@ export function VictorySection() {
             <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-accent to-accent/80 rounded-full mb-6 shadow-lg ring-4 ring-accent/20">
               <Sparkles className="w-8 h-8 text-accent-foreground" />
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-4 text-balance bg-gradient-to-r from-primary via-foreground to-accent bg-clip-text text-transparent">
-              VÌ SAO THẮNG LỢI CỦA CUỘC KHÁNG CHIẾN CHỐNG MỸ LÀ THẮNG LỢI CỦA ĐƯỜNG LỐI LÃNH ĐẠO ĐÚNG ĐẮN CỦA ĐẢNG?
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-balance bg-gradient-to-r from-primary via-foreground to-accent bg-clip-text text-transparent">
+              Vì sao thắng lợi của cuộc kháng chiến chống Mỹ là thắng lợi của đường lối lãnh đạo đúng đắn của Đảng?
             </h2>
           </div>
 
@@ -27,7 +27,7 @@ export function VictorySection() {
                 Có thể khẳng định <br></br><strong className="text-primary text-xl bg-primary/10 px-2 py-1 rounded-lg">"Thắng lợi của cuộc kháng chiến chống Mỹ cứu nước là thắng lợi của đường lối lãnh đạo đúng đắn của Đảng"</strong>
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                vì trong giai đoạn 1965 – 1975, Đảng Cộng sản Việt Nam đã đề ra và thực hiện một đường lối chiến lược toàn diện, độc lập, tự chủ và sáng tạo, 
+                Vì trong giai đoạn 1965 – 1975, Đảng Cộng sản Việt Nam đã đề ra và thực hiện một đường lối chiến lược toàn diện, độc lập, tự chủ và sáng tạo, 
                 phù hợp với thực tiễn Việt Nam và xu thế thời đại, huy động được sức mạnh tổng hợp của cả dân tộc và quốc tế.
               </p>
             </div>
@@ -40,7 +40,7 @@ export function VictorySection() {
                 <Shield className="w-6 h-6 text-primary-foreground" />
               </div>
               <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
-                Quyết Tâm Chiến Lược
+                Quyết tâm chiến lược
               </h3>
               <p className="text-muted-foreground leading-relaxed text-sm">
                 Giương cao hai ngọn cờ độc lập dân tộc và chủ nghĩa xã hội. "Tất cả để đánh thắng giặc Mỹ xâm lược".
@@ -52,7 +52,7 @@ export function VictorySection() {
                 <Globe className="w-6 h-6 text-accent-foreground" />
               </div>
               <h3 className="text-xl font-bold mb-3 group-hover:text-accent transition-colors">
-                Hai Chiến Lược
+                Hai chiến lược
               </h3>
               <p className="text-muted-foreground leading-relaxed text-sm">
                 Miền Bắc - hậu phương vững chắc. Miền Nam - tiền tuyến quyết định. Hai chiến lược cách mạng đồng thời.
@@ -64,7 +64,7 @@ export function VictorySection() {
                 <Zap className="w-6 h-6 text-primary-foreground" />
               </div>
               <h3 className="text-xl font-bold mb-3 group-hover:text-primary transition-colors">
-                Phương Pháp Tổng Hợp
+                Phương pháp tổng hợp
               </h3>
               <p className="text-muted-foreground leading-relaxed text-sm">
                 Ba mũi giáp công: Quân sự, Chính trị, Binh vận. Kết hợp đánh lâu dài và tranh thủ thời cơ quyết định.
@@ -78,7 +78,7 @@ export function VictorySection() {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-primary-foreground/20 rounded-full mb-4">
                 <Trophy className="w-6 h-6" />
               </div>
-              <h3 className="text-2xl md:text-3xl font-bold mb-4">Kết Luận</h3>
+              <h3 className="text-2xl md:text-3xl font-bold mb-4">Kết luận</h3>
               <p className="text-lg leading-relaxed opacity-95 mb-4">
                 Thắng lợi cuối cùng năm 1975 là sự toàn thắng của chủ nghĩa anh hùng cách mạng, của bản lĩnh và trí tuệ Việt Nam, bắt nguồn từ đường lối chính trị, quân sự, ngoại giao độc lập, tự chủ, đúng đắn và sáng tạo của Đảng.
               </p>
