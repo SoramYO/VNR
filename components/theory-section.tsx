@@ -33,7 +33,7 @@ export function TheorySection() {
                       <img
                         src="/images/hoinghi12.png"
                         alt="Hội nghị Trung ương lần thứ 12"
-                        className="w-full h-64 object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
+                        className="w-full h-full object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
                       />
                       <figcaption className="text-xs text-muted-foreground italic text-center mt-2">
                         Hội nghị Trung ương lần thứ 12 (12-1965) - Nguồn: Pháp luật Nhà Đất

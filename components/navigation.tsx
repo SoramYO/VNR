@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import { Menu, X, Home, BookOpen, Shield, Clock, Trophy, Bot } from "lucide-react"
+import { Menu, X, Home, BookOpen, Shield, Clock, Trophy, Bot, MessageCircle } from "lucide-react"
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -23,6 +23,7 @@ export function Navigation() {
     { label: "Thời gian", href: "#timeline", icon: Clock },
     { label: "Thắng lợi", href: "#victory", icon: Trophy },
     { label: "AI Usage", href: "/ai-usage", icon: Bot, isExternal: true },
+    { label: "Đặt câu hỏi", href: "https://padlet.com/thanhphse170345/c-u-ho-i-pha-n-bi-n-cq6-9s88l5xcmq5c7915", icon: MessageCircle, isExternal: true },
   ]
 
   return (

@@ -57,7 +57,7 @@ export function LeadershipSection() {
                     <img
                       src="/images/hcm.jpg"
                       alt="Chủ tịch Hồ Chí Minh"
-                      className="w-full h-64 object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
+                      className="w-full h-full object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
                     />
                     <figcaption className="text-xs text-muted-foreground italic text-center mt-2">
                       Nguồn: Tài liệu lưu trữ lịch sử
@@ -174,7 +174,7 @@ export function LeadershipSection() {
                     <img
                       src="/images/mau-than-1968.jpg"
                       alt="Tổng tiến công Xuân Mậu Thân"
-                      className="w-full h-64 object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
+                      className="w-full h-full object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
                     />
                     <figcaption className="text-xs text-muted-foreground italic text-center mt-2">
                       Nguồn: Tài liệu lưu trữ lịch sử
@@ -285,7 +285,7 @@ export function LeadershipSection() {
                     <img
                       src="/images/tong-tien-cong-chien-luoc.jpg"
                       alt="Tiến công 1972"
-                      className="w-full h-64 object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
+                      className="w-full h-full object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
                     />
                     <figcaption className="text-xs text-muted-foreground italic text-center mt-2">
                       Nguồn: Tài liệu lưu trữ lịch sử
@@ -332,7 +332,7 @@ export function LeadershipSection() {
                     <img
                       src="/images/ki-hiep-dinh-paris.jpg"
                       alt="Ký kết Hiệp định Paris"
-                      className="w-full h-64 object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
+                      className="w-full h-full object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
                     />
                     <figcaption className="text-xs text-muted-foreground italic text-center mt-2">
                       Nguồn: Tài liệu lưu trữ lịch sử
@@ -432,7 +432,7 @@ export function LeadershipSection() {
                     <img
                       src="/images/mien-nam.jpg"
                       alt="Chiến thắng 30-4-1975"
-                      className="w-full h-64 object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
+                      className="w-full h-full object-contain rounded-lg bg-gradient-to-br from-primary/10 to-primary/5"
                     />
                     <figcaption className="text-xs text-muted-foreground italic text-center mt-2">
                       Nguồn: Tài liệu lưu trữ lịch sử

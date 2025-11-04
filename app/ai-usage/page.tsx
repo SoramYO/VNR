@@ -22,6 +22,7 @@ import {
   BookOpen,
   X,
   Menu,
+  MessageCircle,
 } from "lucide-react";
 import { useState, useEffect } from "react"
 
@@ -38,6 +39,7 @@ export default function AIUsagePage() {
     { label: "Thời gian", href: "/#timeline", icon: Clock },
     { label: "Thắng lợi", href: "/#victory", icon: Trophy },
     { label: "AI Usage", href: "/ai-usage", icon: Bot, isExternal: true },
+    { label: "Đặt câu hỏi", href: "https://padlet.com/thanhphse170345/c-u-ho-i-pha-n-bi-n-cq6-9s88l5xcmq5c7915", icon: MessageCircle, isExternal: true },
   ]
   return (
     <main className="min-h-screen bg-gradient-to-b from-background via-muted/20 to-background">
