@@ -29,7 +29,7 @@ export function TheorySection() {
                     </p>
 
                     {/* Image container for Hội nghị 12 */}
-                    <figure className="my-4 bg-muted/50 p-4 rounded-lg border-2 border-dashed border-primary/30">
+                    <figure className="my-4 bg-muted/50 p-4 rounded-lg">
                       <img
                         src="/images/hoinghi12.png"
                         alt="Hội nghị Trung ương lần thứ 12"

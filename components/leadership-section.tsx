@@ -53,7 +53,7 @@ export function LeadershipSection() {
                   </p>
 
                   {/* Image container */}
-                  <figure className="my-4 bg-muted/50 p-4 rounded-lg border-2 border-dashed border-primary/30">
+                  <figure className="my-4 bg-muted/50 p-4 rounded-lg">
                     <img
                       src="/images/hcm.jpg"
                       alt="Chủ tịch Hồ Chí Minh"
@@ -170,7 +170,7 @@ export function LeadershipSection() {
                     bằng phương pháp <strong className="text-primary">tổng công kích-tổng khởi nghĩa</strong>.
                   </p>
 
-                  <figure className="my-4 bg-muted/50 p-4 rounded-lg border-2 border-dashed border-primary/30">
+                  <figure className="my-4 bg-muted/50 p-4 rounded-lg ">
                     <img
                       src="/images/mau-than-1968.jpg"
                       alt="Tổng tiến công Xuân Mậu Thân"
@@ -281,7 +281,7 @@ export function LeadershipSection() {
                     của địch.
                   </p>
 
-                  <figure className="my-4 bg-muted/50 p-4 rounded-lg border-2 border-dashed border-primary/30">
+                  <figure className="my-4 bg-muted/50 p-4 rounded-lg ">
                     <img
                       src="/images/tong-tien-cong-chien-luoc.jpg"
                       alt="Tiến công 1972"
@@ -328,7 +328,7 @@ export function LeadershipSection() {
                     Nam" được ký kết.
                   </p>
 
-                  <figure className="my-4 bg-muted/50 p-4 rounded-lg border-2 border-dashed border-primary/30">
+                  <figure className="my-4 bg-muted/50 p-4 rounded-lg ">
                     <img
                       src="/images/ki-hiep-dinh-paris.jpg"
                       alt="Ký kết Hiệp định Paris"
@@ -428,7 +428,7 @@ export function LeadershipSection() {
                     </strong>
                   </p>
 
-                  <figure className="my-4 bg-muted/50 p-4 rounded-lg border-2 border-dashed border-primary/30">
+                  <figure className="my-4 bg-muted/50 p-4 rounded-lg ">
                     <img
                       src="/images/mien-nam.jpg"
                       alt="Chiến thắng 30-4-1975"

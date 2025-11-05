@@ -24,7 +24,7 @@ export function VictorySection() {
           <Card className="p-8 mb-12 bg-gradient-to-br from-primary/8 to-accent/8 border-2 border-accent/30 shadow-xl hover:shadow-2xl transition-all duration-300">
             <div className="text-center mb-8">
               <p className="text-lg leading-relaxed text-muted-foreground mb-2">
-                Có thể khẳng định <br></br><strong className="text-primary text-xl bg-primary/10 px-2 py-1 rounded-lg">"Thắng lợi của cuộc kháng chiến chống Mỹ cứu nước là thắng lợi của đường lối lãnh đạo đúng đắn của Đảng"</strong>
+                Có thể khẳng định <br></br><strong className="text-primary text-xl px-2 py-1 rounded-lg">"Thắng lợi của cuộc kháng chiến chống Mỹ cứu nước là thắng lợi của đường lối lãnh đạo đúng đắn của Đảng"</strong>
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 Vì trong giai đoạn 1965 – 1975, Đảng Cộng sản Việt Nam đã đề ra và thực hiện một đường lối chiến lược toàn diện, độc lập, tự chủ và sáng tạo, 
