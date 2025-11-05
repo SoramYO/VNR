@@ -369,62 +369,6 @@ export default function AIUsagePage() {
                 </p>
               </div>
             </Card>
-
-            {/* Lưu ý quan trọng */}
-            <Card className="p-8 bg-gradient-to-br from-muted to-background border-2 border-primary/30">
-              <div className="flex items-start gap-4 mb-6">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center shrink-0">
-                  <AlertCircle className="w-6 h-6 text-primary" />
-                </div>
-                <div className="flex-1">
-                  <h3 className="font-bold text-xl mb-3 text-primary">
-                    Lưu Ý Quan Trọng
-                  </h3>
-                </div>
-              </div>
-
-              <div className="space-y-4">
-                <div className="bg-primary/5 p-6 rounded-lg border-l-4 border-primary">
-                  <h4 className="font-bold text-lg mb-3 text-primary">
-                    Cam Kết Sử Dụng:
-                  </h4>
-                  <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li className="flex items-start gap-2">
-                      <span className="text-primary mt-1">✓</span>
-                      <span>Chỉ sử dụng ChatGPT, Claude và NotebookLM</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-primary mt-1">✓</span>
-                      <span>AI là công cụ hỗ trợ, không thay thế học tập</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-primary mt-1">✓</span>
-                      <span>Kiểm chứng mọi thông tin từ AI</span>
-                    </li>
-                  </ul>
-                </div>
-
-                <div className="bg-accent/5 p-6 rounded-lg border-l-4 border-accent">
-                  <h4 className="font-bold text-lg mb-3 text-accent">
-                    Đảm Bảo Chất Lượng:
-                  </h4>
-                  <ul className="space-y-2 text-sm text-muted-foreground">
-                    <li className="flex items-start gap-2">
-                      <span className="text-accent mt-1">✓</span>
-                      <span>Đối chiếu với tài liệu chính thống</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-accent mt-1">✓</span>
-                      <span>Chỉnh sửa và bổ sung bởi sinh viên</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <span className="text-accent mt-1">✓</span>
-                      <span>Tuân thủ chuẩn mực học thuật</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </Card>
           </div>
         </div>
       </section>
